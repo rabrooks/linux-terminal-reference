@@ -49,7 +49,7 @@ Linux (mint) Terminal Command Reference  in both Markdown and PDF
 **apropos subject**- List manual pages for subject   
 **man -k keyword**- Display man pages containing keyword   
 vman command**- Show the manual for command   
-**man -t man | ps2pdf - > man.pdf  – Make a pdf of a manual page   
+**man -t man | ps2pdf - > man.pdf**- Make a pdf of a manual page   
 **which command**- Show full path name of command   
 **time command**- See how long a command takes   
 
@@ -161,7 +161,7 @@ Examples:
 **adduser accountname**- Create a new user call accountname    
 **passwd accountname**- Give accountname a new password    
 **su**- Log in as superuser from current login    
-**exit **- Stop being superuser and revert to normal user    
+**exit**- Stop being superuser and revert to normal user    
 
 ##Process Management
 
@@ -183,10 +183,10 @@ Examples:
 
 ##Stopping & Starting    
 
-**shutdown -h now **- Shutdown the system now and do not reboot    
+**shutdown -h now**- Shutdown the system now and do not reboot    
 **halt**- Stop all processes - same as above    
 **shutdown -r 5**- Shutdown the system in 5 minutes and reboot    
-**shutdown -r now **- Shutdown the system now and reboot    
+**shutdown -r now**- Shutdown the system now and reboot    
 **reboot**- Stop all processes and then reboot - same as above    
 **startx**- Start the X system    
 
